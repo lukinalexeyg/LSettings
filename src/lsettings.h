@@ -70,14 +70,6 @@ public:
         v = qBound(min, v, max);
         setValue(name, v);
     }
-
-
-
-    static bool setIniSetting(const QString &filePath,
-                              const QString &name,
-                              const QString &value,
-                              qint64 maxLinesCount = 65536,
-                              qint64 maxLineLength = 65536);
 };
 
 #endif // LSETTINGS_H
